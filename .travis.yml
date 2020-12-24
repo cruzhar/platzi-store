@@ -12,6 +12,14 @@ git:
 script:
   - yarn build
 
+notifications:
+  email:
+    recipients:
+      - cruz_har@hotmail.es
+      - idas.desing@gmail.com
+    on_success: always
+    on_failure: always
+
 deploy:
   provider: pages
   skip-cleanup: true
